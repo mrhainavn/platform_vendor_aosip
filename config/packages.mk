@@ -7,6 +7,8 @@ PRODUCT_PACKAGES += \
     LiveWallpapers \
     LiveWallpapersPicker \
     messaging \
+    OmniJaws \
+    WeatherIcons \
     WeatherClient
 
 # DerpFest packages
