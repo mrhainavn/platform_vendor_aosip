@@ -8,8 +8,7 @@ PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     messaging \
     WeatherClient \
-    WellbeingPrebuilt \
-    Updater
+    WellbeingPrebuilt
 
 # DerpFest packages
 PRODUCT_PACKAGES += \
