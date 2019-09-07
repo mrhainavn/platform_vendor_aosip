@@ -9,7 +9,8 @@ PRODUCT_PACKAGES += \
     messaging \
     OmniJaws \
     WeatherIcons \
-    WeatherClient
+    WeatherClient \
+    SubstratumSignature
 
 # DerpFest packages
 PRODUCT_PACKAGES += \
