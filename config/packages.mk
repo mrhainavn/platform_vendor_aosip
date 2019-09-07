@@ -17,10 +17,6 @@ PRODUCT_PACKAGES += \
     OmniStyle \
     Eleven
 
-#SubsKey
-PRODUCT_PACKAGES += \
-    SubstratumSignature
-
 # Filesystems tools
 PRODUCT_PACKAGES += \
     fsck.exfat \
