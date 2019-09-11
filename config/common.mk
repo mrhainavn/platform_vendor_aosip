@@ -57,10 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/aosip/prebuilt/common/etc/sysconfig/turbo.xml:system/etc/sysconfig/turbo.xml \
     vendor/aosip/prebuilt/common/etc/sysconfig/org.pixelexperience.weather.client-default.xml:system/etc/default-permissions/org.pixelexperience.weather.client.xml
 
-# Ambient, Google app and Sound search tile - music recognition
-PRODUCT_COPY_FILES +=  \
-    vendor/aosip/prebuilt/common/etc/ambient/matcher_tah.leveldb:system/etc/ambient/matcher_tah.leveldb
-
 # Copy all AOSiP-specific init rc files
 $(foreach f,$(wildcard vendor/aosip/prebuilt/common/etc/init/*.rc),\
 	$(eval PRODUCT_COPY_FILES += $(f):system/etc/init/$(notdir $f)))

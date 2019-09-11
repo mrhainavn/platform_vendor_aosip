@@ -11,8 +11,6 @@ PRODUCT_PACKAGES += \
     WeatherIcons \
     WeatherClient \
     SubstratumSignature \
-    AmbientSensePrebuilt \
-    WellbeingPrebuilt \
     Updater
 
 # DerpFest packages
